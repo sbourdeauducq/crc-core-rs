@@ -1,0 +1,11 @@
+[package]
+name = "crc-core"
+version = "0.1.0"
+authors = ["mrhooray <ruihu.pvt@gmail.com>"]
+description = "core functions shared between source and build script of crc crate"
+keywords = ["crc", "crc32", "crc64", "hash", "checksum"]
+readme = "README.md"
+repository = "https://github.com/mrhooray/crc-core-rs.git"
+license = "MIT"
+
+[dependencies]
