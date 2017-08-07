@@ -9,3 +9,7 @@ repository = "https://github.com/mrhooray/crc-core-rs.git"
 license = "MIT"
 
 [dependencies]
+
+[features]
+std = []
+default = ["std"]

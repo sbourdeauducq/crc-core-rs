@@ -1,3 +1,5 @@
+#![cfg_attr(not(feature = "std"), no_std)]
+
 //! core functions shared between source and build script of [crc](https://crates.io/crates/crc) crate
 
 pub fn make_table_crc32(poly: u32) -> [u32; 256] {
